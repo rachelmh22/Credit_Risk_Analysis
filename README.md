@@ -54,6 +54,6 @@ The purpose of this analysis is to execute a variety of machine learning models 
 
 ![EEAC](/images/EEAC.png)
 
-## Summary: 
+## Summary 
 
 When looking at the results, the high risk scores are of interest since this analysis focuses on determining which individuals are low credit risk and high credit risk in order to predict loan status. The first four models for high risk status score 1% for precision with recall scores between 59% and 70%, while their balanced accuracy scores were in the 50 and 60 percent range. These results do not give confidence that these models are good predictors. On the other hand, the ensemble learning models had higher balanced accuracy scores, especially the Easy Ensemble AdaBoost Classifier with a score of 91%. The precision score was better for the Balanced Random Forest Classifier and the recall score was better for the Easy Ensemble AdaBoost Classifier. If recommending a model for predictions, the learning ensemble models would predict more accurate results according to the analysis. Additionally, if precision is more important then the Balanced Random Forest Classifier is a better model and if recall scores are more important then the Easy Ensemble AdaBoost Classifier would be the recommended model.
