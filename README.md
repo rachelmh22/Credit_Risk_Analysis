@@ -12,11 +12,15 @@ The purpose of this analysis is to execute a variety of machine learning models 
 - precision score: high risk = 1% and low risk = 100%
 - recall score: high risk = 62% and low risk = 68%
 
+![random_oversampling](/images/random_oversampling.png)
+
 ### SMOTE Oversampling
 
 - balanced accuracy score: 51%
 - precision score: high risk = 1% and low risk = 100%
 - recall score: high risk = 59% and low risk = 44%
+
+![SMOTE_oversampling](/images/SMOTE_oversampling.png)
 
 ### Undersampling
 
@@ -24,11 +28,15 @@ The purpose of this analysis is to execute a variety of machine learning models 
 - precision score: high risk = 1% and low risk = 100%
 - recall score: high risk = 59% and low risk = 44%
 
+![undersampling](/images/undersampling.png)
+
 ### Combination Sampling (SMOTEENN)
 
 - balanced accuracy score: 64%
 - precision score: high risk = 1% and low risk = 100%
 - recall score: high risk = 70% and low risk = 57%
+
+![combo](/images/combo.png)
 
 ### Balanced Random Forest Classifier
 
@@ -36,10 +44,14 @@ The purpose of this analysis is to execute a variety of machine learning models 
 - precision score: high risk = 86% and low risk = 100%
 - recall score: high risk = 37% and low risk = 100%
 
+![BRFC](/images/BRFC.png)
+
 ### Easy Ensemble AdaBoost Classifier
 
 - balanced accuracy score: 91%
 - precision score: high risk = 7% and low risk = 100%
 - recall score: high risk = 89% and low risk = 94%
+
+![EEAC](/images/EEAC.png)
 
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
